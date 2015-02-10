@@ -14,6 +14,7 @@
 		BC4241E11A89A7460075323B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4241E01A89A7460075323B /* Images.xcassets */; };
 		BC4241E41A89A7460075323B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4241E21A89A7460075323B /* LaunchScreen.xib */; };
 		BC4241F01A89A7460075323B /* Dynamic_Custom_UIAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4241EF1A89A7460075323B /* Dynamic_Custom_UIAlertViewTests.m */; };
+		BC4241FB1A89A7810075323B /* AlertComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4241FA1A89A7810075323B /* AlertComponent.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BC4241E91A89A7460075323B /* Dynamic_Custom_UIAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dynamic_Custom_UIAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC4241EE1A89A7460075323B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC4241EF1A89A7460075323B /* Dynamic_Custom_UIAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamic_Custom_UIAlertViewTests.m; sourceTree = "<group>"; };
+		BC4241F91A89A7810075323B /* AlertComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertComponent.h; sourceTree = "<group>"; };
+		BC4241FA1A89A7810075323B /* AlertComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertComponent.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				BC4241D81A89A7460075323B /* AppDelegate.m */,
 				BC4241DA1A89A7460075323B /* ViewController.h */,
 				BC4241DB1A89A7460075323B /* ViewController.m */,
+				BC4241F91A89A7810075323B /* AlertComponent.h */,
+				BC4241FA1A89A7810075323B /* AlertComponent.m */,
 				BC4241DD1A89A7460075323B /* Main.storyboard */,
 				BC4241E01A89A7460075323B /* Images.xcassets */,
 				BC4241E21A89A7460075323B /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				BC4241DC1A89A7460075323B /* ViewController.m in Sources */,
 				BC4241D91A89A7460075323B /* AppDelegate.m in Sources */,
+				BC4241FB1A89A7810075323B /* AlertComponent.m in Sources */,
 				BC4241D61A89A7460075323B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

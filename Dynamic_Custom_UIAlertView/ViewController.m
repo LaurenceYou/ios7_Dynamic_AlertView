@@ -7,16 +7,26 @@
 //
 
 #import "ViewController.h"
-
+#import "AlertComponent.h"
 @interface ViewController ()
+
+@property (nonatomic,strong) AlertComponent * alertComponent;
 
 @end
 
 @implementation ViewController
+- (IBAction)showAlert:(id)sender {
+    
+//    [self.alertComponent showAlertView];
+    [self.alertComponent showAlertViewWithSelectionHandler:^(NSInteger buttonIndex, NSString *buttonTitle) {
+        
+    }];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.alertComponent = [[AlertComponent alloc]initAlertWithTitle:@"Custome Alert" andMessage:@"You have a new e-mail message,but I don't know from whom" andButtonTitles:@[@"show me",@"I don't care",@"For me ,really?"] andTargetView:self.view];
 }
 
 - (void)didReceiveMemoryWarning {
