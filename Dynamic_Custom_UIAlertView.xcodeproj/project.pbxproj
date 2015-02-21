@@ -15,6 +15,7 @@
 		BC4241E41A89A7460075323B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC4241E21A89A7460075323B /* LaunchScreen.xib */; };
 		BC4241F01A89A7460075323B /* Dynamic_Custom_UIAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4241EF1A89A7460075323B /* Dynamic_Custom_UIAlertViewTests.m */; };
 		BC4241FB1A89A7810075323B /* AlertComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = BC4241FA1A89A7810075323B /* AlertComponent.m */; };
+		BCBE20C31A984B8E00BF713C /* NewFileCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = BCBE20C21A984B8E00BF713C /* NewFileCommit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		BC4241EF1A89A7460075323B /* Dynamic_Custom_UIAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dynamic_Custom_UIAlertViewTests.m; sourceTree = "<group>"; };
 		BC4241F91A89A7810075323B /* AlertComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertComponent.h; sourceTree = "<group>"; };
 		BC4241FA1A89A7810075323B /* AlertComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertComponent.m; sourceTree = "<group>"; };
+		BCBE20C11A984B8E00BF713C /* NewFileCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFileCommit.h; sourceTree = "<group>"; };
+		BCBE20C21A984B8E00BF713C /* NewFileCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFileCommit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 			children = (
 				BC4241D71A89A7460075323B /* AppDelegate.h */,
 				BC4241D81A89A7460075323B /* AppDelegate.m */,
+				BCBE20C11A984B8E00BF713C /* NewFileCommit.h */,
+				BCBE20C21A984B8E00BF713C /* NewFileCommit.m */,
 				BC4241DA1A89A7460075323B /* ViewController.h */,
 				BC4241DB1A89A7460075323B /* ViewController.m */,
 				BC4241F91A89A7810075323B /* AlertComponent.h */,
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCBE20C31A984B8E00BF713C /* NewFileCommit.m in Sources */,
 				BC4241DC1A89A7460075323B /* ViewController.m in Sources */,
 				BC4241D91A89A7460075323B /* AppDelegate.m in Sources */,
 				BC4241FB1A89A7810075323B /* AlertComponent.m in Sources */,
@@ -418,6 +424,7 @@
 				BC4241F51A89A7460075323B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC4241F61A89A7460075323B /* Build configuration list for PBXNativeTarget "Dynamic_Custom_UIAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				BC4241F81A89A7460075323B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
