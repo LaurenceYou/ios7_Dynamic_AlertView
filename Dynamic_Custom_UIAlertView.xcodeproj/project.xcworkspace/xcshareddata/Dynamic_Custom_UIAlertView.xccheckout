@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AA6D9F46-131A-4D81-9D87-E9267B2073FE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Dynamic_Custom_UIAlertView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9E7F59F6199A2E75D8D3D970455CA1DACEE65780</key>
+		<string>https://github.com/LaurenceYou/ios7_Dynamic_AlertView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Dynamic_Custom_UIAlertView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9E7F59F6199A2E75D8D3D970455CA1DACEE65780</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/LaurenceYou/ios7_Dynamic_AlertView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9E7F59F6199A2E75D8D3D970455CA1DACEE65780</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9E7F59F6199A2E75D8D3D970455CA1DACEE65780</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Dynamic_Custom_UIAlertView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
